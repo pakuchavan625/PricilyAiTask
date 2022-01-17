@@ -1,0 +1,24 @@
+.RightComponetContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+ 
+    margin-left: 20px;
+    width: 70%;
+    font-size: 15px;
+}
+@media only screen and (max-width:600px){
+    .RightComponetContainer{
+        display: flex;
+        flex-direction: column;
+
+        width: 99%;
+  
+        margin-top: 20px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .table-size{
+        width: 90%;
+    }
+}

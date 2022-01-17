@@ -1,0 +1,35 @@
+.leftComponentConatiner{
+    display: flex;
+    justify-content: center;
+
+}
+.leftComponentIfon{
+    text-align: center;
+    border: 1px solid red;
+    height: 500px;
+    color: blueviolet;
+    margin-left: 0px;
+    width: 20%;
+}
+.dog-pic{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:600px){
+    .leftComponentConatiner{
+        display: flex;
+        flex-direction: column;
+      
+    
+    }.leftComponentIfon{
+    
+        
+        margin-left: 5px;  
+        height: 400px;
+        width: 98%;
+        margin-bottom: 20px;
+        
+    }
+}
